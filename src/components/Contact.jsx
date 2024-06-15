@@ -33,8 +33,8 @@ const Contact = () => {
     setLoading(true);
     
     emailjs
-      .send('service_ncuyy2u ',    //serviceid
-        '__ejs-test-mail-service__ ',    //templateid
+      .send('service_o9eycof ',    //serviceid
+        'template_6moyw88 ',    //templateid
         {
           from_name: form.name,
           to_name: "Advika",
@@ -42,11 +42,11 @@ const Contact = () => {
           to_email: "thisisadvikaa@gmail.com",
           message: form.message,
         },
-        'XdTzvepK-BdasRswE'   //publickey
+        'j5ZXGWmBXFUDJJd0E'   //publickey
       )
       .then(
         () => {
-          setLoading(false);
+          setLoading(true);
           alert("Thank you. I will get back to you as soon as possible.");
 
           setForm({
