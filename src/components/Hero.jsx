@@ -62,7 +62,7 @@ const Hero = () => {
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
             I am <span className="text-[#915EFF]">{text}</span>
           </p>
-          <a href="https://drive.google.com/file/d/1vSxxV-45kvf0PX_do1vVIHQ2LcL3p38S/view?usp=drive_link">
+          <a href="https://drive.google.com/file/d/1VtIy2KiIAIzJr0CzHZcf9MRuxWAJOy7a/view?usp=drive_link">
             <button className="px-8 py-2 mt-3 font-medium tracking-wide text-white capitalize transition-colors duration-300 transform bg-[#915EFF] rounded-lg hover:bg-[#9a6cff] focus:outline-none focus:ring focus:ring-blue-300 focus:ring-opacity-80">
               Resume
             </button>
