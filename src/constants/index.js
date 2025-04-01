@@ -57,7 +57,7 @@ const services = [
     icon: backend,
   },
   {
-    title: "UI/UX",
+    title: "Shopify",
     icon: backend,
   },
 ];
